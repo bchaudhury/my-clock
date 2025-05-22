@@ -1,0 +1,169 @@
+.clock {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #eff0d2;
+  position: relative;
+  margin: 0 auto;
+  border: 3px solid #333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  place-content: center;
+  justify-content: center;
+  display: flex;
+}
+
+.dot {
+  width: 14px;
+  height: 14px;
+  background-color: #a09797;
+  border: 2px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 10;
+}
+
+.hour {
+  position: absolute;
+  font-weight: bold;
+  font-size: 23px;
+  text-align: center;
+  line-height: 1.5;
+  color: #333;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  color: #6b0202;
+}
+
+.twelve {
+  top: 10px;
+  left: 46%;
+}
+
+.one {
+  top: 10%;
+  right: 26%
+}
+
+.eleven {
+  top: 10%;
+  left: 26%;
+}
+  
+.two {
+  top: 25%;
+  right: 10%;
+}
+
+.three {
+  top: 46%;
+  right: 10px;
+}
+
+.four {
+  right: 36px;
+  top: 67%;
+}
+
+.five {
+  right: 78px;
+  top: 80%;
+}
+
+.six {
+  bottom: 10px;
+  left: 47%;
+}
+
+.seven {
+  left: 78px;
+  top: 80%;
+}
+
+.eight {
+  left: 36px;
+  top: 65%;
+}
+
+.nine {
+  left: 10px;
+  top: 46%;
+}
+
+.ten {
+  left: 10%;
+  top: 25%;
+}
+
+.second-hand {
+  position: absolute;
+  z-index: 7;
+  width: 2px;
+  height: 120px;
+  background-color: rgb(250, 2, 2);
+  top: 26px;
+  left: 50%;
+  transform-origin: 50% 125px;
+  margin-left: -1px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+.hour-hand {
+  position: absolute;
+  z-index: 5;
+  width: 4px;
+  height: 60px;
+  background-color: black;
+  top: 79px;
+  left: 50%;
+  transform-origin: 50% 72px;
+  margin-left: -2px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+.minute-hand {
+  position: absolute;
+  z-index: 6;
+  width: 4px;
+  height: 110px;
+  background-color: black;
+  top: 46px;
+  left: 50%;
+  transform-origin: 50% 105px;
+  margin-left: -2px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+.logo {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  border: 1px solid #0c0c0c;
+  box-shadow: 0 0 10px rgba(248, 246, 246, 0.5);
+  height: 40px;
+  width: 40px;
+}
+
+.date {
+  position: absolute;
+  top: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid #0c0c0c;
+  font-size: 20px;
+  color: #791717;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+
+
