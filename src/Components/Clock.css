@@ -91,12 +91,12 @@
 
 .nine {
   left: 10px;
-  top: 46%;
+  top: 45%;
 }
 
 .ten {
   left: 10%;
-  top: 25%;
+  top: 24%;
 }
 
 .second-hand {
@@ -185,7 +185,7 @@
 
 .AMPM {
   position: absolute;
-  top: 47.5%;
+  top: 47%;
   left: 60px;
   transform: translateX(-50%);
   background-color: #070707;
