@@ -60,13 +60,13 @@
 }
 
 .three {
-  top: 46%;
+  top: 45%;
   right: 10px;
 }
 
 .four {
   right: 36px;
-  top: 67%;
+  top: 64%;
 }
 
 .five {
@@ -166,7 +166,7 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 15px;
   font-weight: bold;
-  color: #a06403;
+  color: #104b01;
 }
 
 .day {
