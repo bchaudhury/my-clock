@@ -17,6 +17,7 @@ const Clock = () => {
 
     <div className="clock">
       <div className="dot"></div>
+      <div className="hour marker"></div>
       <div className='hour twelve'>XII</div>
       <div className='hour one'>I</div>
       <div className='hour two'>II</div>
@@ -35,6 +36,12 @@ const Clock = () => {
       <div>
         <div className="date">
           {time.toLocaleString('default', { month: 'long' })} {time.getDate()}, {time.getFullYear()}
+        </div>
+        <div className="day">
+          {time.toLocaleString('default', { weekday: 'long' })}
+        </div>
+        <div className="AMPM">
+          {time.getHours() >= 12 ? 'PM' : 'AM'}
         </div>
         <img src={Logo} alt="Logo" className='logo' />
       </div>
