@@ -2,10 +2,10 @@
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  background-color: #eff0d2;
+  background: #fdfcfc ;
   position: relative;
   margin: 0 auto;
-  border: 3px solid #333;
+  border: 10px solid #805454;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
   place-content: center;
   justify-content: center;
@@ -15,7 +15,7 @@
 .dot {
   width: 14px;
   height: 14px;
-  background-color: #a09797;
+  background-color: #887b7b;
   border: 2px solid #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border-radius: 50%;
@@ -33,10 +33,13 @@
   font-weight: bold;
   font-size: 23px;
   text-align: center;
+  width: 30px;
+  height: 30px;
   line-height: 1.5;
-  color: #333;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: #6b0202;
+  border-radius: 50%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #080808;
+  font-family:
 }
 
 .twelve {
@@ -46,7 +49,7 @@
 
 .one {
   top: 10%;
-  right: 26%
+  right: 25%
 }
 
 .eleven {
@@ -60,17 +63,17 @@
 }
 
 .three {
-  top: 45%;
+  top: 44.5%;
   right: 10px;
 }
 
 .four {
-  right: 36px;
+  right: 30px;
   top: 64%;
 }
 
 .five {
-  right: 78px;
+  right: 75px;
   top: 80%;
 }
 
@@ -80,13 +83,13 @@
 }
 
 .seven {
-  left: 78px;
+  left: 76px;
   top: 80%;
 }
 
 .eight {
-  left: 36px;
-  top: 65%;
+  left: 30px;
+  top: 64%;
 }
 
 .nine {
@@ -101,10 +104,10 @@
 
 .second-hand {
   position: absolute;
-  z-index: 7;
+  z-index: 8;
   width: 2px;
   height: 120px;
-  background-color: rgb(250, 2, 2);
+  background-color: rgb(163, 1, 1);
   top: 26px;
   left: 50%;
   transform-origin: 50% 125px;
@@ -119,7 +122,7 @@
   width: 4px;
   height: 60px;
   background-color: black;
-  top: 79px;
+  top: 75px;
   left: 50%;
   transform-origin: 50% 72px;
   margin-left: -2px;
@@ -129,10 +132,10 @@
 
 .minute-hand {
   position: absolute;
-  z-index: 6;
+  z-index: 7;
   width: 4px;
   height: 110px;
-  background-color: black;
+  background-color: rgb(10, 10, 10);
   top: 46px;
   left: 50%;
   transform-origin: 50% 105px;
@@ -144,7 +147,7 @@
 .logo {
   position: absolute;
   bottom: 50px;
-  left: 50%;
+  left: 52%;
   transform: translateX(-50%);
   border-radius: 50%;
   background-color: #f0f0f0;
@@ -166,35 +169,49 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 15px;
   font-weight: bold;
-  color: #104b01;
+  color: #4b0c01;
 }
 
 .day {
   position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  place-content: center;
   top: 47%;
-  right: 15px;
+  height: 18px;
+  right: 16px;
   transform: translateX(-50%);
   background-color: #050505;
   border: 1px solid #0c0c0c;
   border-radius: 10%;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 15px;
-  font-weight: bold;
+  font-weight: semi-bold;
   color: #f6f7f2;
+  padding: 0 2px;
+  z-index: 1;
 }
 
 .AMPM {
   position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  place-content: center;
   top: 47%;
   left: 60px;
+  height: 18px;
   transform: translateX(-50%);
   background-color: #070707;
   border: 1px solid #0c0c0c;
   border-radius: 10%;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 15px;
-  font-weight: bold;
+  font-weight: semi-bold;
   color: #f6f7f3;
+  padding: 0 2px;
+  z-index: 1;
 }
 
 
