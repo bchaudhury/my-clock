@@ -148,12 +148,16 @@
   bottom: 50px;
   left: 50%;
   transform: translateX(-50%);
-  border-radius: 45%;
-  border: 2px solid rgb(23, 207, 2);
-  box-shadow: 0 0 10px rgba(180, 245, 4, 0.5);
-  height: 40px;
   width: 45px;
+  height: 40px;
+  z-index: 5;
+  border: 2px solid #9dc598;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(37, 59, 28, 0.5);
+  background-color: #f7f7f7;
+  display: flex;
 }
+
 
 .date {
   position: absolute;
