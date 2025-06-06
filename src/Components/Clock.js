@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './Clock.css'
-import Logo from '../Assets/Bhaskar.png'
+import Logo from '../Assets/Bhaskar.jpeg'
 
 const Clock = () => {
 

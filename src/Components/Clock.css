@@ -158,7 +158,6 @@
   display: flex;
 }
 
-
 .date {
   position: absolute;
   top: 60px;
@@ -182,7 +181,7 @@
   place-content: center;
   top: 47%;
   height: 18px;
-  right: 16px;
+  right: 25px;
   transform: translateX(-50%);
   background-color: #050505;
   border: 1px solid #0c0c0c;
