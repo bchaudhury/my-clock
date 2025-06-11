@@ -38,7 +38,7 @@ const Clock = () => {
           {time.toLocaleString('default', { month: 'long' })} {time.getDate()}, {time.getFullYear()}
         </div>
         <div className="day">
-          {time.toLocaleString('default', { weekday: 'long' })}
+          {time.toLocaleString('default', { weekday: 'short' })}          
         </div>
         <div className="AMPM">
           {time.getHours() >= 12 ? 'PM' : 'AM'}

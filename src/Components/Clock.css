@@ -181,7 +181,7 @@
   place-content: center;
   top: 47%;
   height: 18px;
-  right: 25px;
+  right: 28px;
   transform: translateX(-50%);
   background-color: #050505;
   border: 1px solid #0c0c0c;
@@ -189,6 +189,7 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 15px;
   font-weight: semi-bold;
+  text-transform: uppercase;
   color: #f6f7f2;
   padding: 0 2px;
   z-index: 1;
