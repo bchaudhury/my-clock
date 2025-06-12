@@ -35,7 +35,7 @@ const Clock = () => {
       <div className="hand second-hand" style={{ transform: `rotate(${time.getSeconds() * 6}deg)` }}></div>
       <div>
         <div className="date">
-          {time.toLocaleString('default', { month: 'long' })} {time.getDate()}, {time.getFullYear()}
+          {time.toLocaleString('default', { month: 'short' })} {time.getDate()}, {time.getFullYear()}
         </div>
         <div className="day">
           {time.toLocaleString('default', { weekday: 'short' })}          
