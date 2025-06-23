@@ -173,7 +173,7 @@
   color: #4b0c01;
 }
 
-.day {
+.weekday {
   position: absolute;
   justify-content: center;
   align-items: center;
@@ -191,6 +191,28 @@
   font-weight: semi-bold;
   text-transform: uppercase;
   color: #f6f7f2;
+  padding: 0 2px;
+  z-index: 1;
+}
+
+.sun {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  place-content: center;
+  top: 47%;
+  height: 18px;
+  right: 28px;
+  transform: translateX(-50%);
+  background-color: #050505;
+  border: 1px solid #0c0c0c;
+  border-radius: 10%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+  font-weight: semi-bold;
+  text-transform: uppercase;
+  color: #f5a297;
   padding: 0 2px;
   z-index: 1;
 }
