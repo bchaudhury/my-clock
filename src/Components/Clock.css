@@ -2,14 +2,22 @@
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  background: #fdfcfc ;
+  background-image: url('../Assets/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   position: relative;
   margin: 0 auto;
-  border: 10px solid #805454;
+  border: 10px rgb(224, 99, 57) solid;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
   place-content: center;
   justify-content: center;
   display: flex;
+  align-items: center;
+  overflow: hidden;
+  border-image: fill  linear-gradient(to right, #805454, #9dc598) 1;
+  z-index: 10;
 }
 
 .dot {
@@ -38,7 +46,7 @@
   line-height: 1.5;
   border-radius: 50%;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: #080808;
+  color: rgba(204, 238, 170, 0.993)
 }
 
 .twelve {
@@ -106,7 +114,7 @@
   z-index: 8;
   width: 2px;
   height: 125px;
-  background-color: rgb(163, 1, 1);
+  background-color: rgb(12, 12, 12);
   top: 26px;
   left: 50%;
   transform-origin: 50% 125px;
@@ -120,7 +128,7 @@
   z-index: 7;
   width: 4px;
   height: 65px;
-  background-color: #0c0c0c;
+  background-color: rgb(250, 239, 239);
   top: 79px;
   left: 50%;
   transform-origin: 50% 72px;
@@ -134,7 +142,7 @@
   z-index: 6;
   width: 4px;
   height: 100px;
-  background-color: #0c0c0c;
+  background-color: rgb(247, 240, 237);
   top: 46px;
   left: 50%;
   transform-origin: 50% 105px;
@@ -151,7 +159,7 @@
   width: 40px;
   height: 40px;
   z-index: 5;
-  border: 2px solid #9dc598;
+  border: 2px solid #929791;
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(54, 97, 37, 0.5);
   background-color: #f7f7f7;
@@ -173,7 +181,7 @@
   color: #4b0c01;
 }
 
-.weekday {
+.day {
   position: absolute;
   justify-content: center;
   align-items: center;
@@ -192,29 +200,7 @@
   text-transform: uppercase;
   color: white;
   padding: 0 2px;
-  z-index: 1;
-}
-
-.sun {
-  position: absolute;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  place-content: center;
-  top: 47%;
-  height: 18px;
-  right: 28px;
-  transform: translateX(-50%);
-  background-color: white;
-  border: 1px solid #0c0c0c;
-  border-radius: 10%;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 15px;
-  font-weight: semi-bold;
-  text-transform: uppercase;
-  color: #861101;
-  padding: 0 2px;
-  z-index: 1;
+  z-index: 10;
 }
 
 .AMPM {
@@ -235,5 +221,5 @@
   font-weight: semi-bold;
   color: white;
   padding: 0 2px;
-  z-index: 1;
+  z-index: 10;
 }

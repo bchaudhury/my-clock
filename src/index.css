@@ -2,7 +2,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #82a7f0;
+  background-color: #eaedf5;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
