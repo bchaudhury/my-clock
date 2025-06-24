@@ -9,7 +9,7 @@
   background-attachment: fixed;
   position: relative;
   margin: 0 auto;
-  border: 10px rgb(224, 99, 57) solid;
+  border: 10px rgb(170, 61, 25) solid;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
   place-content: center;
   justify-content: center;
@@ -23,7 +23,7 @@
 .dot {
   width: 14px;
   height: 14px;
-  background-color: #887b7b;
+  background-color: #665f49;
   border: 2px solid #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border-radius: 50%;
@@ -45,8 +45,9 @@
   height: 30px;
   line-height: 1.5;
   border-radius: 50%;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: rgba(204, 238, 170, 0.993)
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  z-index: 1;
+  color: rgb(250, 235, 184)
 }
 
 .twelve {
@@ -128,7 +129,7 @@
   z-index: 7;
   width: 4px;
   height: 65px;
-  background-color: rgb(250, 239, 239);
+  background-color: whitesmoke;
   top: 79px;
   left: 50%;
   transform-origin: 50% 72px;
@@ -142,7 +143,7 @@
   z-index: 6;
   width: 4px;
   height: 100px;
-  background-color: rgb(247, 240, 237);
+  background-color: whitesmoke;
   top: 46px;
   left: 50%;
   transform-origin: 50% 105px;
@@ -153,11 +154,11 @@
 
 .logo {
   position: absolute;
-  bottom: 50px;
+  bottom: 40px;
   left: 50%;
   transform: translateX(-50%);
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   z-index: 5;
   border: 2px solid #929791;
   border-radius: 50%;
@@ -168,8 +169,8 @@
 
 .date {
   position: absolute;
-  top: 60px;
-  left: 51%;
+  top: 50px;
+  left: 51.5%;
   transform: translateX(-50%);
   background-color: #f5f0f0;
   border: 1px solid #0c0c0c;
@@ -187,9 +188,9 @@
   align-items: center;
   display: flex;
   place-content: center;
-  top: 47%;
+  top: 47.5%;
   height: 18px;
-  right: 28px;
+  right: 29px;
   transform: translateX(-50%);
   background-color: black;
   border: 1px solid #0c0c0c;
@@ -200,7 +201,7 @@
   text-transform: uppercase;
   color: white;
   padding: 0 2px;
-  z-index: 10;
+  z-index: 1;
 }
 
 .AMPM {
@@ -209,7 +210,7 @@
   align-items: center;
   display: flex;
   place-content: center;
-  top: 47%;
+  top: 47.5%;
   left: 60px;
   height: 18px;
   transform: translateX(-50%);
@@ -221,5 +222,5 @@
   font-weight: semi-bold;
   color: white;
   padding: 0 2px;
-  z-index: 10;
+  z-index: 1;
 }
