@@ -2,11 +2,12 @@
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80');
+  background-image: url('../Assets/mp.jpg');
   background-size: cover;
-  background-position: left;
+  background-position-x: center;
+  background-position-y: center;
+  background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   position: relative;
   margin: 0 auto;
   border: 10px rgb(170, 61, 25) solid;
@@ -129,7 +130,7 @@
   z-index: 7;
   width: 4px;
   height: 65px;
-  background-color: whitesmoke;
+  background-color: red;
   top: 79px;
   left: 50%;
   transform-origin: 50% 72px;
@@ -143,7 +144,7 @@
   z-index: 6;
   width: 4px;
   height: 100px;
-  background-color: whitesmoke;
+  background-color: red;
   top: 46px;
   left: 50%;
   transform-origin: 50% 105px;
@@ -169,7 +170,7 @@
 
 .date {
   position: absolute;
-  top: 50px;
+  top: 110px;
   left: 51.5%;
   transform: translateX(-50%);
   background-color: #f5f0f0;
